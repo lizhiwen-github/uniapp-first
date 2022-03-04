@@ -1,0 +1,23 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	],
+	// 全局样式配置
+	"globalStyle": {
+		// 设置导航栏字体的样式（只能设置white和black）
+		"navigationBarTextStyle": "black",
+		// 设置导航栏字体的文本内容
+		"navigationBarTitleText": "uni-app",
+		// 设置导航栏的背景颜色(只能设置十六进制的数据)
+		"navigationBarBackgroundColor": "#F8F8F8",
+		// 设置窗口的背景色
+		"backgroundColor": "#F8F8F8",
+		// 下拉刷新的样式（只能设置white和light）
+		"backgroundTextStyle":"dark",
+		 //是否开启下拉刷新（true或false）
+		"enablePullDownRefresh":true
+		
+	}
+}
