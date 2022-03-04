@@ -1,1 +1,1 @@
-<view>message页面组件</view>
+<view><view class="box" hover-class="box-hover"><view class="box1" hover-class="box1-hover" hover-stop-propagation="{{true}}" hover-start-time="{{2000}}" hover-stay-time="{{2000}}">我是view组件</view></view></view>

@@ -1,1 +1,18 @@
-/* pages/message/message.wxss */
+
+.box1{
+	 width: 100px;
+	 height: 100px;
+	 background-color: red;
+}
+.box1-hover{
+	 background-color: #007AFF;
+}
+.box{
+	 width: 200px;
+	 height: 200px;
+	 background-color:#4CD964;
+}
+.box-hover{
+	 background-color: #3F536E;
+}
+

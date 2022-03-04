@@ -1,5 +1,21 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/me/me"],{
 
+/***/ 26:
+/*!****************************************************************************************************!*\
+  !*** D:/desktop_res/Usual Doc/00前端学习/前端/微信小程序/code/01firstdemo/main.js?{"page":"pages%2Fme%2Fme"} ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 5);
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
+var _me = _interopRequireDefault(__webpack_require__(/*! ./pages/me/me.vue */ 27));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
+createPage(_me.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
 /***/ 27:
 /*!*********************************************************************************!*\
   !*** D:/desktop_res/Usual Doc/00前端学习/前端/微信小程序/code/01firstdemo/pages/me/me.vue ***!
@@ -115,33 +131,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-/***/ }),
-
-/***/ 33:
-/*!****************************************************************************************************!*\
-  !*** D:/desktop_res/Usual Doc/00前端学习/前端/微信小程序/code/01firstdemo/main.js?{"page":"pages%2Fme%2Fme"} ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 5);
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
-var _me = _interopRequireDefault(__webpack_require__(/*! ./pages/me/me.vue */ 27));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
-createPage(_me.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+//
+//
+//
 
 /***/ })
 
-},[[33,"common/runtime","common/vendor"]]]);
+},[[26,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/me/me.js.map
-;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
-    'pages/me/me-create-component',
-    {
-        'pages/me/me-create-component':(function(module, exports, __webpack_require__){
-            __webpack_require__('1')['createComponent'](__webpack_require__(27))
-        })
-    },
-    [['pages/me/me-create-component']]
-]);

@@ -1,5 +1,7 @@
 <template>
-	<view>详情页组件</view>
+	<view>
+		<view></view>
+	</view>
 </template>
 
 <script>
