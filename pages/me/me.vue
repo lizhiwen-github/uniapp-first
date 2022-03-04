@@ -1,9 +1,9 @@
 <template>
-	<view>
+	<view id="box">
 		<view v-for="(item,index) in list" :key="index">
 			{{item}}
 		</view>
-		<button @click="freshbtn">点我下拉刷新</button>
+		<!-- <button @click="freshbtn">点我下拉刷新</button> -->
 	</view>
 </template>
 
@@ -27,9 +27,19 @@ export default{
 		  //手动停止下拉刷新，否则不会自动停止刷新
 		  uni.stopPullDownRefresh() 
 	   },2000)
+   },
+   // 当滚动条触底时，会触发该事件函数
+   onReachBottom(){
+	   // ...表示展开数组的意思
+	   this.list=[...this.list,...['c#','css','html','vue','js']]
    }
 }
 </script>
 
 <style>
+	#box{
+		line-height: 100px;
+		height: 1000px;
+		
+	}
 </style>

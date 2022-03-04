@@ -1,1 +1,1 @@
-<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view>{{''+item+''}}</view></block><button data-event-opts="{{[['tap',[['freshbtn',['$event']]]]]}}" bindtap="__e">点我下拉刷新</button></view>
+<view id="box"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view>{{''+item+''}}</view></block></view>

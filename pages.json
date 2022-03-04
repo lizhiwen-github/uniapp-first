@@ -11,7 +11,8 @@
 		{
 			"path":"pages/me/me",
 			"style":{
-				"enablePullDownRefresh":true
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":10
 			}
 		},
 		{
