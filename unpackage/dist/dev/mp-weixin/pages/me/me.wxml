@@ -1,1 +1,1 @@
-<view><view>关于我们的组件</view><view class="iconfont icon-weixin"></view></view>
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view>{{''+item+''}}</view></block><button data-event-opts="{{[['tap',[['freshbtn',['$event']]]]]}}" bindtap="__e">点我下拉刷新</button></view>

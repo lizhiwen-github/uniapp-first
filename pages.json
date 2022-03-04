@@ -9,7 +9,10 @@
 		},
 	
 		{
-			"path":"pages/me/me"
+			"path":"pages/me/me",
+			"style":{
+				"enablePullDownRefresh":true
+			}
 		},
 		{
 			"path":"pages/detail/detail"

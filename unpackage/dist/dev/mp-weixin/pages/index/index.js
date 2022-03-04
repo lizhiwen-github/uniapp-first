@@ -153,6 +153,18 @@ var _default =
 
   },
   onLoad: function onLoad() {
+    console.log("页面加载完成");
+  },
+  onShow: function onShow() {
+    console.log("页面显示");
+  },
+  onHide: function onHide() {
+    console.log("页面隐藏");
+  },
+  onReady: function onReady() {
+    console.log("页面初次被渲染完成");
+  },
+  onUnload: function onUnload() {
 
   },
   methods: {} };exports.default = _default;

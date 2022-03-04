@@ -89,14 +89,22 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
 {
+  // 应用的生命周期函数
+  // onLanuch:当项目初始化完成时触发
+  // onShow:当项目显示时被触发
+  // onHide：当项目隐藏时被触发
+  // onError:当项目报错时被触发
   onLaunch: function onLaunch() {
-    console.log('App Launch');
+    console.log('项目初始化完成');
   },
   onShow: function onShow() {
-    console.log('App Show');
+    console.log('项目显示');
   },
   onHide: function onHide() {
-    console.log('App Hide');
+    console.log('项目隐藏');
+  },
+  onError: function onError(err) {
+    console.log(err);
   } };exports.default = _default;
 
 /***/ }),

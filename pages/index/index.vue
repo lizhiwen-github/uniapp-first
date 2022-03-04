@@ -15,7 +15,19 @@
 			}
 		},
 		onLoad() {
-
+           console.log("页面加载完成")
+		},
+		onShow(){
+		  console.log("页面显示")
+		},
+		onHide(){
+		  console.log("页面隐藏")	
+		},
+		onReady(){
+			console.log("页面初次被渲染完成")
+		},
+		onUnload() {
+			
 		},
 		methods: {
 
