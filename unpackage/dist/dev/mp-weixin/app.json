@@ -1,15 +1,43 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/message/message",
+    "pages/me/me",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8",
-    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#3F536E",
+    "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#007AFF",
+    "selectedColor": "#DD524D",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message-active.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/me/me",
+        "iconPath": "./static/tabs/contact.png",
+        "selectedIconPath": "static/tabs/contact-active.png"
+      }
+    ]
   },
   "permission": {
     "scope.userLocation": {
