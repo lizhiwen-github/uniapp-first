@@ -1,0 +1,1 @@
+<view>{{'父组件传递给Test组件的值为：'+info+"\n\t从Test2组件中获取的数据为："+val+''}}<button>点击修改</button></view>

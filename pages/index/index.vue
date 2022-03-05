@@ -1,64 +1,37 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+	<view>
+		<test :info="20" @fun="fun">
+		</test>
+		<br/>
+		<test2></test2>
+		<view>
+			子组件向父组件传递的数据为：{{id}}
 		</view>
 	</view>
 </template>
 
 <script>
+	import Test from '../../components/Test.vue'
+	import Test2 from '../../components/Test2.vue'
 	export default {
+		components:{
+			Test,
+			Test2
+		},
+		
 		data() {
 			return {
-				title: 'Hello'
+				id:0
 			}
 		},
-		onLoad() {
-           console.log("页面加载完成")
-		},
-		onShow(){
-		  console.log("页面显示")
-		},
-		onHide(){
-		  console.log("页面隐藏")	
-		},
-		onReady(){
-			console.log("页面初次被渲染完成")
-		},
-		onUnload() {
-			
-		},
 		methods: {
-
+          fun(val){
+			  this.id=val
+		  }
 		}
 	}
 </script>
 
 <style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+	
 </style>

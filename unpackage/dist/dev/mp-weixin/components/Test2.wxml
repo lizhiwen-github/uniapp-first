@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['fun',['$event']]]]]}}" bindtap="__e">点击按钮向Test组件传值</button></view>

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "test": "/components/Test",
+    "test2": "/components/Test2"
+  }
 }

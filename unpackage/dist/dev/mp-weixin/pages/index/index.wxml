@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view><test vue-id="8dd740cc-1" info="{{20}}" data-event-opts="{{[['^fun',[['fun']]]]}}" bind:fun="__e" bind:__l="__l"></test><view class="_br"></view><test2 vue-id="8dd740cc-2" bind:__l="__l"></test2><view>{{'子组件向父组件传递的数据为：'+id+''}}</view></view>
